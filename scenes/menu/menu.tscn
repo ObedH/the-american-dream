@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://bofcyvfxj0y01"]
+
+[ext_resource type="Script" uid="uid://q1f06471sfql" path="res://scenes/menu/menu.gd" id="1_klgdb"]
+
+[node name="Menu" type="Control" unique_id=2010457187]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_klgdb")
+
+[node name="Play" type="Button" parent="." unique_id=92561608]
+layout_mode = 0
+offset_left = 113.0
+offset_top = 96.0
+offset_right = 197.0
+offset_bottom = 127.0
+text = "Play"
+
+[connection signal="pressed" from="Play" to="." method="_on_play_pressed"]
