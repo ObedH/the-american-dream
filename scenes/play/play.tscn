@@ -33,4 +33,5 @@ visible = false
 layout_mode = 2
 
 [node name="Family" parent="TabContainer" unique_id=1617049175 instance=ExtResource("5_tdyfg")]
+visible = false
 layout_mode = 2

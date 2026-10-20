@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://ylv7f3rwpqb1"]
+
+[ext_resource type="Texture2D" uid="uid://bq8dabjenrttc" path="res://objects/home/home.png" id="1_nht3e"]
+
+[node name="Home" type="Control" unique_id=353956934]
+custom_minimum_size = Vector2(128, 128)
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=947289519]
+layout_mode = 1
+offset_right = 128.0
+offset_bottom = 128.0
+pivot_offset_ratio = Vector2(0.5, 0.5)
+texture = ExtResource("1_nht3e")

@@ -14,7 +14,7 @@ theme = ExtResource("1_6f666")
 script = ExtResource("1_luqp6")
 metadata/_tab_index = 1
 
-[node name="Actions" type="FoldableContainer" parent="." unique_id=998042620]
+[node name="ActionsPanel" type="FoldableContainer" parent="." unique_id=998042620]
 layout_mode = 1
 anchors_preset = 11
 anchor_left = 1.0

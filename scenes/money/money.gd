@@ -12,6 +12,11 @@ func _ready() -> void:
 	
 	money_display.text = "Money: %d" % money
 
+
+func initialize() -> void:
+	pass
+
+
 func add_money(amount: int) -> void:
 	money += amount
 	money_display.text = "Money: %d" % money
