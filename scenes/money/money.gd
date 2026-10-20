@@ -1,6 +1,8 @@
 class_name Money
 extends Control
 
+signal notif_request(notif: Notif)
+
 var money: int = 0
 
 @onready var money_display: Label = $MoneyDisplay
@@ -20,6 +22,9 @@ func initialize() -> void:
 func add_money(amount: int) -> void:
 	money += amount
 	money_display.text = "Money: %d" % money
+	
+	if money > 5:
+		notif_request.emit(Notif.new(Notif.NotifType.MONEY, "Too much!"))
 
 
 func take_money(amount: int) -> void:

@@ -2,7 +2,6 @@
 
 [ext_resource type="Theme" uid="uid://cpnk7xou0ltke" path="res://ui/themes/main_theme/main_theme.tres" id="1_tyffg"]
 [ext_resource type="Script" uid="uid://dxsrnncj064qq" path="res://scenes/play/notifs_panel/notifs_panel.gd" id="2_dbd1c"]
-[ext_resource type="PackedScene" uid="uid://doi44j5qbp5gh" path="res://scenes/play/notifs_panel/notif/notif.tscn" id="3_j72b8"]
 
 [node name="NotifsPanel" type="VBoxContainer" unique_id=637751230]
 anchors_preset = 2
@@ -18,18 +17,3 @@ script = ExtResource("2_dbd1c")
 layout_mode = 2
 text = "Notifications"
 horizontal_alignment = 1
-
-[node name="Notif" parent="." unique_id=2068622365 instance=ExtResource("3_j72b8")]
-layout_mode = 2
-
-[node name="Notif2" parent="." unique_id=169467825 instance=ExtResource("3_j72b8")]
-layout_mode = 2
-
-[node name="Notif3" parent="." unique_id=904959339 instance=ExtResource("3_j72b8")]
-layout_mode = 2
-
-[node name="Notif4" parent="." unique_id=992694714 instance=ExtResource("3_j72b8")]
-layout_mode = 2
-
-[node name="Notif5" parent="." unique_id=1723349589 instance=ExtResource("3_j72b8")]
-layout_mode = 2

@@ -1,2 +1,16 @@
 class_name Notif
-extends HBoxContainer
+extends Resource
+
+enum NotifType {
+	HOME,
+	MONEY,
+	RELA
+}
+
+@export var notif_type: NotifType
+@export var message: String
+
+
+func _init(type: NotifType, text: String) -> void:
+	notif_type = type
+	message = text
