@@ -1,6 +1,10 @@
 [gd_scene format=3 uid="uid://b5j88yor1x5tn"]
 
+[ext_resource type="Theme" uid="uid://cpnk7xou0ltke" path="res://ui/themes/main_theme/main_theme.tres" id="1_3t680"]
 [ext_resource type="Script" uid="uid://bef06xhaog32i" path="res://scenes/play/play.gd" id="1_u5o7e"]
+[ext_resource type="PackedScene" uid="uid://cegujtpayijih" path="res://scenes/money/money.tscn" id="3_fxwjs"]
+[ext_resource type="PackedScene" uid="uid://dhp2qjx77v7k7" path="res://scenes/relationships/relationships.tscn" id="4_kpfyx"]
+[ext_resource type="PackedScene" uid="uid://cdycdaokv1hsv" path="res://scenes/family/family.tscn" id="5_tdyfg"]
 
 [node name="Play" type="Control" unique_id=1391722839]
 layout_mode = 3
@@ -9,4 +13,24 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+theme = ExtResource("1_3t680")
 script = ExtResource("1_u5o7e")
+
+[node name="TabContainer" type="TabContainer" parent="." unique_id=1509184987]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+current_tab = 0
+
+[node name="Money" parent="TabContainer" unique_id=86739329 instance=ExtResource("3_fxwjs")]
+layout_mode = 2
+
+[node name="Relationships" parent="TabContainer" unique_id=1759055338 instance=ExtResource("4_kpfyx")]
+visible = false
+layout_mode = 2
+
+[node name="Family" parent="TabContainer" unique_id=1617049175 instance=ExtResource("5_tdyfg")]
+layout_mode = 2

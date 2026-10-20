@@ -1,0 +1,6 @@
+[gd_resource type="Theme" format=3 uid="uid://cpnk7xou0ltke"]
+
+[resource]
+TabContainer/constants/side_margin = 0
+TabContainer/constants/tab_separation = 0
+TabContainer/font_sizes/font_size = 6

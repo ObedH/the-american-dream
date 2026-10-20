@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://cdycdaokv1hsv"]
+
+[node name="Family" type="Control" unique_id=1617049175]
+visible = false
+layout_mode = 3
+anchors_preset = 0
+metadata/_tab_index = 2
