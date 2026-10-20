@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://bbepavt17tea4"]
+
+[ext_resource type="Script" uid="uid://cmsvv14p7mgwg" path="res://components/income/income.gd" id="1_wxnrw"]
+
+[node name="IncomeComponent" type="Node" unique_id=586061488 groups=["income"]]
+script = ExtResource("1_wxnrw")

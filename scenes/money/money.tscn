@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://cegujtpayijih"]
 
 [ext_resource type="PackedScene" uid="uid://dds580yiirp4c" path="res://objects/dollar/dollar.tscn" id="1_lji6b"]
+[ext_resource type="Script" uid="uid://c8edmej2q8yal" path="res://scenes/money/money.gd" id="1_s1arj"]
 
 [node name="Money" type="Control" unique_id=86739329]
 layout_mode = 3
@@ -9,6 +10,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_s1arj")
 metadata/_tab_index = 0
 
 [node name="Dollar" parent="." unique_id=293948130 instance=ExtResource("1_lji6b")]
@@ -24,3 +26,9 @@ offset_right = 32.0
 offset_bottom = 32.0
 grow_horizontal = 2
 grow_vertical = 2
+
+[node name="MoneyDisplay" type="Label" parent="." unique_id=1065464948]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+text = "Money: "
