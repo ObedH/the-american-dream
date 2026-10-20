@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://doi44j5qbp5gh"]
+
+[ext_resource type="Script" uid="uid://cfb4annndb73j" path="res://scenes/play/notifs_panel/notif/notif.gd" id="1_1qhkx"]
+[ext_resource type="Texture2D" uid="uid://3e8rhlbun1sc" path="res://scenes/play/notifs_panel/notif/rela_icon.tres" id="1_v6t7w"]
+
+[node name="Notif" type="HBoxContainer" unique_id=169467825]
+custom_minimum_size = Vector2(73, 0)
+offset_right = 58.0
+offset_bottom = 12.0
+script = ExtResource("1_1qhkx")
+
+[node name="Icon" type="TextureRect" parent="." unique_id=2000281496]
+layout_mode = 2
+size_flags_vertical = 4
+texture = ExtResource("1_v6t7w")
+stretch_mode = 2
+
+[node name="Label" type="Label" parent="." unique_id=1350614403]
+layout_mode = 2
+text = "Need help!"
+horizontal_alignment = 1
+vertical_alignment = 1

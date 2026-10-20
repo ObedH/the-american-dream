@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://dds580yiirp4c"]
 
-[ext_resource type="Texture2D" uid="uid://dbjcck1jyq4r1" path="res://objects/dollar/dollar.png" id="1_ektf0"]
-[ext_resource type="Script" uid="uid://dhrw0ngv5he8n" path="res://objects/dollar/dollar.gd" id="2_jfjuy"]
+[ext_resource type="Texture2D" uid="uid://dbjcck1jyq4r1" path="res://scenes/money/dollar/dollar.png" id="1_ektf0"]
+[ext_resource type="Script" uid="uid://dhrw0ngv5he8n" path="res://scenes/money/dollar/dollar.gd" id="2_jfjuy"]
 [ext_resource type="PackedScene" uid="uid://bbepavt17tea4" path="res://components/income/income.tscn" id="2_qp3vo"]
 
 [node name="Dollar" type="TextureButton" unique_id=106605851]

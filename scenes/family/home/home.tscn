@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://ylv7f3rwpqb1"]
 
-[ext_resource type="Texture2D" uid="uid://bq8dabjenrttc" path="res://objects/home/home.png" id="1_nht3e"]
+[ext_resource type="Texture2D" uid="uid://bq8dabjenrttc" path="res://scenes/family/home/home.png" id="1_nht3e"]
 
 [node name="Home" type="Control" unique_id=353956934]
 custom_minimum_size = Vector2(128, 128)

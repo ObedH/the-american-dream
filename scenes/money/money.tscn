@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://cegujtpayijih"]
 
-[ext_resource type="PackedScene" uid="uid://dds580yiirp4c" path="res://objects/dollar/dollar.tscn" id="1_lji6b"]
+[ext_resource type="PackedScene" uid="uid://dds580yiirp4c" path="res://scenes/money/dollar/dollar.tscn" id="1_lji6b"]
 [ext_resource type="Theme" uid="uid://cpnk7xou0ltke" path="res://ui/themes/main_theme/main_theme.tres" id="1_p8oel"]
 [ext_resource type="Script" uid="uid://c8edmej2q8yal" path="res://scenes/money/money.gd" id="1_s1arj"]
 

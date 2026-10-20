@@ -5,6 +5,7 @@
 [ext_resource type="PackedScene" uid="uid://cegujtpayijih" path="res://scenes/money/money.tscn" id="3_fxwjs"]
 [ext_resource type="PackedScene" uid="uid://dhp2qjx77v7k7" path="res://scenes/relas/relas.tscn" id="4_kpfyx"]
 [ext_resource type="PackedScene" uid="uid://cdycdaokv1hsv" path="res://scenes/family/family.tscn" id="5_tdyfg"]
+[ext_resource type="PackedScene" uid="uid://pf8j674gh2gh" path="res://scenes/play/notifs_panel/notifs_panel.tscn" id="6_1phcp"]
 
 [node name="Play" type="Control" unique_id=1391722839]
 layout_mode = 3
@@ -35,3 +36,8 @@ layout_mode = 2
 [node name="Family" parent="TabContainer" unique_id=1617049175 instance=ExtResource("5_tdyfg")]
 visible = false
 layout_mode = 2
+
+[node name="NotifsPanel" parent="." unique_id=637751230 instance=ExtResource("6_1phcp")]
+layout_mode = 1
+offset_top = -112.48999
+offset_right = 73.0
