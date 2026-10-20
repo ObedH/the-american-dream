@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://dds580yiirp4c"]
+
+[ext_resource type="Texture2D" uid="uid://dbjcck1jyq4r1" path="res://objects/dollar/dollar.png" id="1_ektf0"]
+
+[node name="Dollar" type="TextureButton" unique_id=106605851]
+offset_right = 40.0
+offset_bottom = 40.0
+texture_normal = ExtResource("1_ektf0")

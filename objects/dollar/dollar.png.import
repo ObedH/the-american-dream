@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dbjcck1jyq4r1"
-path="res://.godot/imported/dollar_cookie.png-067c4a020a13101f069c3ae500dd5652.ctex"
+path="res://.godot/imported/dollar.png-55c656534747bb41641ed82730c4e6f3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://objects/dollar_cookie/dollar_cookie.png"
-dest_files=["res://.godot/imported/dollar_cookie.png-067c4a020a13101f069c3ae500dd5652.ctex"]
+source_file="res://objects/dollar/dollar.png"
+dest_files=["res://.godot/imported/dollar.png-55c656534747bb41641ed82730c4e6f3.ctex"]
 
 [params]
 
