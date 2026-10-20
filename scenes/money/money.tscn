@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://cegujtpayijih"]
 
 [ext_resource type="PackedScene" uid="uid://dds580yiirp4c" path="res://objects/dollar/dollar.tscn" id="1_lji6b"]
+[ext_resource type="Theme" uid="uid://cpnk7xou0ltke" path="res://ui/themes/main_theme/main_theme.tres" id="1_p8oel"]
 [ext_resource type="Script" uid="uid://c8edmej2q8yal" path="res://scenes/money/money.gd" id="1_s1arj"]
 
 [node name="Money" type="Control" unique_id=86739329]
@@ -10,15 +11,16 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+theme = ExtResource("1_p8oel")
 script = ExtResource("1_s1arj")
 metadata/_tab_index = 0
 
 [node name="Dollar" parent="." unique_id=293948130 instance=ExtResource("1_lji6b")]
 layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
+anchors_preset = -1
+anchor_left = 0.4
 anchor_top = 0.5
-anchor_right = 0.5
+anchor_right = 0.4
 anchor_bottom = 0.5
 offset_left = -32.0
 offset_top = -32.0
@@ -32,3 +34,15 @@ layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 text = "Money: "
+
+[node name="IncomePanel" type="FoldableContainer" parent="." unique_id=750676217]
+layout_mode = 1
+anchors_preset = 11
+anchor_left = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -84.0
+grow_horizontal = 0
+grow_vertical = 2
+title = "Income"
+title_alignment = 1
