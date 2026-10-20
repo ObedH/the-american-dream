@@ -3,7 +3,7 @@
 [ext_resource type="Theme" uid="uid://cpnk7xou0ltke" path="res://ui/themes/main_theme/main_theme.tres" id="1_3t680"]
 [ext_resource type="Script" uid="uid://bef06xhaog32i" path="res://scenes/play/play.gd" id="1_u5o7e"]
 [ext_resource type="PackedScene" uid="uid://cegujtpayijih" path="res://scenes/money/money.tscn" id="3_fxwjs"]
-[ext_resource type="PackedScene" uid="uid://dhp2qjx77v7k7" path="res://scenes/relationships/relationships.tscn" id="4_kpfyx"]
+[ext_resource type="PackedScene" uid="uid://dhp2qjx77v7k7" path="res://scenes/relas/relas.tscn" id="4_kpfyx"]
 [ext_resource type="PackedScene" uid="uid://cdycdaokv1hsv" path="res://scenes/family/family.tscn" id="5_tdyfg"]
 
 [node name="Play" type="Control" unique_id=1391722839]
