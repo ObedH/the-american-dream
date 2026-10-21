@@ -8,6 +8,8 @@
 - Make notifications respondable
 - Make panel containers scrollable
 
+## Daily Planning
+
 ### 2026-10-21
 Make a working income sources panel
 1. [ ] New Feature - Give players a place to buy income sources
