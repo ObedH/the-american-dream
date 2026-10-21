@@ -6,8 +6,10 @@ An ```IncomeWidget``` is a display of one of your income sources. It contains
 the name of the income sources, and possible actions you can do with it.
 
 ### IncomeData
-```IncomeData``` is a custom resource holding the data about the income source, 
-including the name of the income source.
+```IncomeData``` is a custom resource holding the data about the income source.
+1. Income source name
+2. Price of the income source
+3. Level at which the player can see the name of this income source
 
 ## Notifications
 ### NotifBubble
