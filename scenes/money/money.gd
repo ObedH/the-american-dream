@@ -10,8 +10,10 @@ enum Means {
 
 var money: int = 0
 var means: Means
+var industry: Industry
 
 @onready var money_display: Label = $MoneyDisplay
+@onready var income_panel: FoldableContainer = $IncomePanel
 
 
 func _ready() -> void:
@@ -23,6 +25,10 @@ func _ready() -> void:
 
 func initialize(how: Means) -> void:
 	means = how
+	if means == Means.INDUSTRY:
+		var industry_res: PackedScene = load("res://scenes/money/industry/industry.tscn")
+		industry = industry_res.instantiate()
+		income_panel.add_child(industry)
 
 
 func add_money(amount: int) -> void:

@@ -1,0 +1,2 @@
+class_name Industry
+extends VBoxContainer
