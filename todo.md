@@ -4,6 +4,9 @@
 - Research Al Capone and how he made his fortune, as well as Gatsby
 	- Find a way to apply that to this game and explain ideas in the ideas.md 
 	doc
+- Fill in the journal for 2026-10-19 by looking at commit history
+- Make notifications respondable
+- Make panel containers scrollable
 
 ### 2026-10-21
 Make a working income sources panel
