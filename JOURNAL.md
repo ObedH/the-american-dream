@@ -11,3 +11,4 @@ A daily description of what I did to make devlogs easier
 John D. Rockefeller
 3. Added a simple display of income sources on the money tab
 4. Created Todo, Architecture, Journal, and Ideas documents to stay organized
+5. Played some cookie clicker for research purposes :D
