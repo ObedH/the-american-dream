@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://dolv80mbbhge6"]
+
+[ext_resource type="Theme" uid="uid://cpnk7xou0ltke" path="res://ui/themes/main_theme/main_theme.tres" id="1_nte8j"]
+[ext_resource type="Script" uid="uid://bf8bomi3nbq8x" path="res://scenes/money/income/income_widget.gd" id="1_ojpc6"]
+
+[node name="IncomeWidget" type="PanelContainer" unique_id=703697673]
+theme = ExtResource("1_nte8j")
+script = ExtResource("1_ojpc6")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="." unique_id=359956661]
+layout_mode = 2
+
+[node name="Title" type="Label" parent="HBoxContainer" unique_id=1426645104]
+layout_mode = 2
+text = "Income Name"
+
+[node name="Actions" type="OptionButton" parent="HBoxContainer" unique_id=764906073]
+layout_mode = 2
+item_count = 1
+popup/item_0/text = "Quit"
+popup/item_0/id = 0

@@ -23,5 +23,7 @@ func initialize() -> void:
 
 func add_notif(data: NotifData) -> void:
 	var bubble: NotifBubble = NOTIF_BUBBLE.instantiate()
-	bubble.make(data)
 	notifs_panel.add_child(bubble)
+	if not bubble.is_node_ready():
+		await bubble.ready
+	bubble.make(data)

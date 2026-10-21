@@ -12,7 +12,7 @@ var notif_data: NotifData
 
 
 func _ready() -> void:
-	if notif_data == null:
+	if not notif_data:
 		push_warning("No notif data!")
 		return
 	
