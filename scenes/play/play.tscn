@@ -38,6 +38,8 @@ visible = false
 layout_mode = 2
 
 [node name="NotifsPanel" parent="." unique_id=637751230 instance=ExtResource("6_1phcp")]
+custom_maximum_size = Vector2(-1, 142)
 layout_mode = 1
-offset_top = -112.48999
+anchors_preset = -1
+offset_top = 0.0
 offset_right = 73.0
