@@ -5,26 +5,26 @@ const HOME_ICON = preload("uid://dnej8ano32u0d")
 const MONEY_ICON = preload("uid://dr41qo01cmx8s")
 const RELA_ICON = preload("uid://3e8rhlbun1sc")
 
-var notif_meta: Notif
+var notif_data: NotifData
 
 @onready var icon: TextureRect = $Icon
 @onready var message: Label = $Message
 
 
 func _ready() -> void:
-	if notif_meta == null:
-		push_warning("No notif meta!")
+	if notif_data == null:
+		push_warning("No notif data!")
 		return
 	
-	match notif_meta.notif_type:
-		Notif.NotifType.MONEY:
+	match notif_data.notif_type:
+		NotifData.NotifType.MONEY:
 			icon.texture = MONEY_ICON
-		Notif.NotifType.HOME:
+		NotifData.NotifType.HOME:
 			icon.texture = HOME_ICON
-		Notif.NotifType.RELA:
+		NotifData.NotifType.RELA:
 			icon.texture = RELA_ICON
 	
-	message.text = notif_meta.message
+	message.text = notif_data.message
 
-func make(notif: Notif) -> void:
-	notif_meta = notif
+func make(data: NotifData) -> void:
+	notif_data = data

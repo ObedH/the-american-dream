@@ -1,4 +1,4 @@
-class_name Notif
+class_name NotifData
 extends Resource
 
 enum NotifType {
