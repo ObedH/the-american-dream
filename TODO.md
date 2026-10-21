@@ -7,6 +7,7 @@
 - Fill in the journal for 2026-10-19 by looking at commit history
 - Make notifications respondable
 - Make panel containers scrollable
+- Use branches for new features
 
 ## Daily Planning
 
