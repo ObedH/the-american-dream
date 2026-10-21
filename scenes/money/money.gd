@@ -1,7 +1,7 @@
 class_name Money
 extends Control
 
-signal notif_request(notif: Notif)
+signal notif_request(data: NotifData)
 
 enum Means {
 	BOOTLEGGING,
@@ -36,7 +36,7 @@ func add_money(amount: int) -> void:
 	money_display.text = "Money: %d" % money
 	
 	if money > 5:
-		notif_request.emit(Notif.new(Notif.NotifType.MONEY, "Too much!"))
+		notif_request.emit(NotifData.new(NotifData.NotifType.MONEY, "Too much!"))
 
 
 func take_money(amount: int) -> void:

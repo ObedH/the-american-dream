@@ -1,7 +1,7 @@
 class_name Family
 extends Control
 
-signal notif_request(notif: Notif)
+signal notif_request(data: NotifData)
 
 
 func _ready() -> void:
