@@ -3,7 +3,13 @@ extends Control
 
 signal notif_request(notif: Notif)
 
+enum Means {
+	BOOTLEGGING,
+	INDUSTRY,
+}
+
 var money: int = 0
+var means: Means
 
 @onready var money_display: Label = $MoneyDisplay
 
@@ -15,8 +21,8 @@ func _ready() -> void:
 	money_display.text = "Money: %d" % money
 
 
-func initialize() -> void:
-	pass
+func initialize(how: Means) -> void:
+	means = how
 
 
 func add_money(amount: int) -> void:

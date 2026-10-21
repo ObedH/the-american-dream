@@ -16,7 +16,7 @@ func _ready() -> void:
 
 
 func initialize() -> void:
-	money.initialize()
+	money.initialize(Money.Means.INDUSTRY)
 	relas.initialize()
 	family.initialize()
 
